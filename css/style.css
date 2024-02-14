@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#b00000;
+    --secondary-color:#002D73;
+}
+
+.mt{
+
+margin-top: 20px;
+
+
+}
+
+.mb{
+
+    margin-bottom: 20px;
+}
+
+body{
+
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+position: relative;
+} 
+.h1{
+    font-size: 40px;
+
+}
+
+.text-align-center{
+
+    text-align: center;
+
+}
+h3{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+}
+main{
+    margin-top: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 0;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 14px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.contact i{
+    color: var(--primary-color);
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.hero-left{
+    flex: 2;
+}
+.hero-right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-right img{
+    min-height: 400px;
+
+}
+.hero-left p{
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.hero-left h1{
+    font-size: 2.5rem;
+}
+.hero-left h3{
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+
+}
+button{
+    padding: 12px 26px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.primary{
+    background-color: var(--primary-color);
+    color: white;
+
+}
+
+
+ .secondary{
+    background-color: transparent;
+    color: rgb(73, 71, 71);
+    border: 1px solid black;
+
+}
+#hero-left-description{
+    color: black;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+
+.section-standout{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.standout-left{
+    flex: 1;
+
+}
+.standout-left h1{
+    margin-bottom: 10px;
+
+}
+
+.standout-left p{
+    color: black;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+
+.standout-right{
+    flex: 1;
+}
+.section-feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-feature .feature-card{
+    max-width: 250px;
+    padding: 20px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.feature-card i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+
+    
+}
+
+.feature-content{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.flyhigh{
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.price-section{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px 20px;
+
+
+}
+.price-section .price-card{
+
+    background-color: #E5E5E5;
+    padding: 40px 20px;
+    min-height:280px ;
+    max-width: 250px;
+    padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+border-radius: 10px;
+gap: 10px;
+
+}
+.price-section .price-card p{
+    text-align:left ;
+}
+.item{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    border-radius: 0;
+
+}
+.section-st{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.st-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.st-section .st-card{
+
+    background-color: #E5E5E5;
+    padding: 40px 20px;
+    max-width: 250px;
+    padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+border-radius: 10px;
+gap: 10px;
+}
+
+.section-st .img-class img{
+
+     
+ 
+    display: flex;
+    justify-content: end;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   margin-right: 30px;
+   position: relative;
+   
+   
+ }
+ 
+.item{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    border-radius: 0;
+
+}
+
+
+.flyhigh .img-class img{
+   display: flex;
+   justify-content: end;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   margin-right: 30px;
+   
+ }
+ 
+.career{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.career-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.career-section .career-card{
+    
+    background-color: #E5E5E5;
+    padding: 40px 20px;
+    max-width: 3000px;
+    padding: 50px 400px 50px 400px;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+border-radius: 10px;
+gap: 30px;
+}
+.item{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    border-radius: 0;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    margin-top: 50px;
+    margin-left: 0px;
+    color: white;
+    padding: 40px;
+    height: 200px;
+    margin-bottom: 40px;
+    min-height: 500px;
+ }
+ 
+
+
+ 
+ .footerleft p{
+    text-align: justify;
+    font-weight: 50;
+ }
+
+ 
+ .footerright{
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+    padding: 10px;
+    margin: 10px;
+ }
+ .courses{
+    margin: 60px;
+    
+ }
+ .services{
+    margin: 50px;
+
+ }
+ .company{
+    margin: 50px;
+    
+ }
+ .help{
+    margin: 50px;
+
+ }
+ 
